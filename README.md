@@ -138,12 +138,28 @@ flet build apk
 ### Sqlite
 
 ```sh
-sqlite3 database.db
+sqlite3 my_database.db
 CREATE TABLE products (
     product_id INTEGER PRIMARY KEY AUTOINCREMENT,
     product_name TEXT NOT NULL,
     price REAL
 );
+```
+
+```python
+    import sqlite3
+
+    with sqlite3.connect('my_database.db') as conn:
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", ("Bob", "bob@example.com"))
+        conn.commit()
+
+    with sqlite3.connect('my_database.db') as conn:
+        cursor.execute("SELECT * FROM users")
+        rows = cursor.fetchall()
+        for row in rows:
+            print(row)
+    
 ```
 
 ### API Pokemon
