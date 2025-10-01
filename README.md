@@ -139,6 +139,9 @@ flet build apk
 
 ```sh
 sqlite3 my_database.db
+```
+
+```sql
 CREATE TABLE products (
     product_id INTEGER PRIMARY KEY AUTOINCREMENT,
     product_name TEXT NOT NULL,
