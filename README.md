@@ -137,6 +137,8 @@ flet build apk
 
 ### Sqlite
 
+https://docs.python.org/pt-br/3.9/library/sqlite3.html
+
 ```sh
 sqlite3 my_database.db
 ```
