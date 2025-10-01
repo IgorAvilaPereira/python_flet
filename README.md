@@ -9,17 +9,19 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-
 ## Instalando o Flet
 
 ```sh
 pip install flet[all]
 ```
 
+## Criando um projeto
+
+```sh
+flet create
+```
 
 ## Exemplo
-
-Salve como counter.py
 
 ```python
 import flet as ft
@@ -54,28 +56,17 @@ ft.app(main)
 
 ## Rodando
 
-
 ```sh
-flet run counter.py
+flet run [script]
 ```
 
 ### Web
 
 ```sh
-flet run --web counter.py
+flet run --web [script]
 ```
 
-## Projeto Padrão Flet
-
-```sh
-mkdir first-flet-app
-cd first-flet-app
-python3 -m venv .venv
-source .venv/bin/activate
-pip install flet[all]
-flet create
-flet run
-```
+## Diretório - Projeto Padrão Flet
 
 ```
 ├── README.md
