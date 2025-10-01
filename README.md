@@ -153,7 +153,9 @@ https://github.com/PokeAPI/pokebase
 ### OFF-TOPIC:
 
 https://console.groq.com/docs/quickstart
+```sh
 pip install groq
+```
 
 <!--
 #### 🔍 Modelos bons gratuitos
