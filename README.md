@@ -72,9 +72,9 @@ flet run --web [script]
 ├── README.md
 ├── pyproject.toml
 ├── src
-│   ├── assets
-│   │   └── icon.png
-│   └── main.py
+│   ├── assets
+│   │   └── icon.png
+│   └── main.py
 └── storage
     ├── data
     └── temp
@@ -210,4 +210,5 @@ print(output["choices"][0]["text"])
 
 
 python3 Llama.py
+
 
