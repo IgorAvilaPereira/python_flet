@@ -2,6 +2,8 @@
 
 Documentação Oficial: https://flet.dev/docs/
 
+[Vídeo Aula](https://youtu.be/UyQEhsQfc4c)
+
 ## Criando Projeto e o virtualenv
 
 ```sh
