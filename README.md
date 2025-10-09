@@ -2,7 +2,15 @@
 
 Documentação Oficial: https://flet.dev/docs/
 
+
+## Aula
+
+**Demo - Aplicação de Gerenciamento de Tarefas (To-Do)**
+
+![demo](demo.gif)
+
 [Vídeo Aula](https://youtu.be/UyQEhsQfc4c)
+
 
 ## Criando Projeto e o virtualenv
 
