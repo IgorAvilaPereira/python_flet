@@ -138,7 +138,7 @@ flet build apk
 
 * https://flet.dev/docs/publish/web
 
-### Sqlite
+### SQlite
 
 https://docs.python.org/pt-br/3.9/library/sqlite3.html
 
