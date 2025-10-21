@@ -94,7 +94,7 @@ flet build apk
 * https://flet.dev/docs/publish/web
 
 ## Extras
-
+<!--
 ```python
 import flet as ft
 
@@ -125,7 +125,7 @@ def main(page: ft.Page):
 
 ft.app(main)
 ```
-
+--> 
 ### SQlite
 
 https://docs.python.org/pt-br/3.9/library/sqlite3.html
